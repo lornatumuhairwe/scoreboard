@@ -31,12 +31,10 @@ const Header = (props) => {
 };
 
 class Counter extends React.Component {
-    constructor(){
-        super();
-        this.state = {
-            score: 0
-        }
-    }
+    state = {
+        score: 0
+    };
+
     render () {
         return (
             <div className='counter'>
